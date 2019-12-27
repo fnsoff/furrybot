@@ -1,0 +1,44 @@
+{
+  "name": "furrybot",
+  "version": "2.4.1",
+  "description": "Innovative Discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Rxflex",
+  "license": "MIT",
+  "engines": {
+    "node": "^10.15.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bluebird": "^3.7.1",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.0.11",
+    "enmap-level": "^2.1.0",
+    "ffmpeg": "0.0.4",
+    "figlet": "^1.2.0",
+    "fs": "0.0.1-security",
+    "google-translate-api": "^2.3.0",
+    "heroku": "^7.29.0",
+    "humanize-duration": "^3.15.1",
+    "mathjs": "^5.1.1",
+    "moment": "^2.22.2",
+    "ms": "^2.1.1",
+    "neko.js": "^1.9.4",
+    "node-opus": "^0.3.3",
+    "os": "^0.1.1",
+    "promise": "^8.0.3",
+    "random-puppy": "^1.1.0",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "superagent": "^3.8.3",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^1.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1"
+  }
+}
