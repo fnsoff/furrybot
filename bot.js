@@ -107,8 +107,7 @@ log.debug(`Музыкальный модуль успешно загружен.\
 
 
 
-//client.login("NDA3MTU3NjUzNDc1ODE5NTMw.XXut_Q.E1ykqRSyYNDP2ToOm94QpDp3fEk")
-client.login("NjE1MTc0MTI2NDM2NDgzMDky.XfEEBQ.EON4gEhEUJvV_IouvU2zY-2NP2Q")
+client.login("You must paste token here")
     .then(() => log.log('[Discord] Подключен к веб-сокету!'))
     .catch(console.error);
 
