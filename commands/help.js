@@ -36,6 +36,10 @@ module.exports.run = async (client, message) => {
                     value: `${client.commands.filter(cmd => cmd.help.category === 'fun').map(cmd => `\`${cmd.help.name}\``).join(" - ")}`
                 },
                 {
+                    name: "• :gear: Управление ролями:",
+                    value: `${client.commands.filter(cmd => cmd.help.category === 'roles').map(cmd => `\`${cmd.help.name}\``).join(" - ")}`
+                },
+                {
                     name: "• :underage: NSFW:",
                     value: `${client.commands.filter(cmd => cmd.help.category === 'nsfw').map(cmd => `\`${cmd.help.name}\``).join(" - ")}`
                 }
